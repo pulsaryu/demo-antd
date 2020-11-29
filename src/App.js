@@ -1,5 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import { DatePicker } from 'antd';
+import 'antd/dist/antd.css';
+
+function Demo() {
+  return (
+      <div>
+        <p>This is Demo.</p>
+      </div>
+  )
+}
 
 function App() {
   return (
@@ -17,7 +27,10 @@ function App() {
         >
           Learn React
         </a>
+
       </header>
+      <Demo/>
+      <DatePicker/>
     </div>
   );
 }
